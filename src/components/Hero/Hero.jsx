@@ -8,7 +8,6 @@ const Hero = () =>{
     const [data, setData] = useState('');
     async function sendData(e){
         e.preventDefault();
-        console.log(data);
         const data1 = await axios.post('http://localhost:3000/getData', {
             data: data
           })
@@ -41,24 +40,24 @@ const Hero = () =>{
                     <div className="flexCenter stats">
                         <div className="flexColCenter stat">
                             <span>
-                                <CountUp start={8800} end ={9000} duration={4}/>
+                                <CountUp start={8800} end ={ 9000} duration={4}/>
                                 <span>+</span>
                             </span>
-                            <span className="secondaryText">Premium Products</span>
+                            <span className="Kage">Premium Products</span>
                         </div>
                         <div className="flexColCenter stat">
                             <span>
                                 <CountUp start={1950} end ={2000} duration={4}/>
                                 <span>+</span>
                             </span>
-                            <span className="secondaryText">Happy Customers</span>
+                            <span className="Kage">Happy Customers </span>
                         </div>
-                        <div className="flexColCenter stat">
+                        <div className="flexColCenter  stat">
                             <span>
                                 <CountUp end ={28}/>
                                 <span>+</span>
                             </span>
-                            <span className="secondaryText">Award Winnings</span>
+                            <span className="Kage">Award Winnings</span>
                         </div>
                     </div>
 

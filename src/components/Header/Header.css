@@ -21,7 +21,7 @@
     display: none;
 }
 @media (max-width: 768px){
-    .menu-icons{
+    .menu-icon{
         display: block;
     }
     .h-menu{

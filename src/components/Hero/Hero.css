@@ -80,18 +80,19 @@
         width: 95%;
         height: 25rem;
     }
-    .stats{
+    .stats {
         justify-content: center;
         gap: 1.5rem;
     }
     .hero-right{
         width: 100%;
     }
-    .stat>:nth-child(1){
+    .stat > :nth-child(1){
         font-size: 1.5rem;
     }
-    .stat>:nth-child(2){
+    .stat > :nth-child(2){
         font-size: .8rem;
     }
+    
 }
 
